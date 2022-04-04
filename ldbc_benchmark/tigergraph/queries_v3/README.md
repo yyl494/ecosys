@@ -221,5 +221,26 @@ Option `--help` can be used to check for usage. The structure of the
     * `./driver.py run` - run queries 
       * `./driver.py gen_para` generate paremters if parameter files are not found
    
+## ic1 benchmark
+```
+# start tiger graph
+gadmin restart all -y
 
+# download and load data
+cd ~
+gsutil cp gs://ldbc_interactive/composite_projectecd/sf1.tar.zst .
+unzstd sf1.tar.zst
+tar -xf sf1.tar
+# go to ./queries_v3 directory
+cd ecosys/ldbc_benchmark/tigergraph/queries_v3
+./driver.py load all /home/tigergraph/social_network-csv_composite-sf1/ --format ic
+
+# copy the original parameter file to queries_v3/ldbc_params
+
+# generate parameters jsons
+# ic1 as example
+./gen_para.py ldbc_params/ic1_params.txt parameters/ic1 ic1
+# run queries for all paramters files
+./query_bench.py ic1 parameters/ic1
+```
 
