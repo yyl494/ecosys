@@ -2,6 +2,8 @@
 import csv
 import json
 import sys
+import datetime
+import time
 
 # generate json parameters for tiger graph
 # [python3] ./gen_para.py <src/para.txt> <outdir> <query>
@@ -13,7 +15,11 @@ def create_map(query, row):
     load_dict = eval(s)
   
   if query == 'ic1':
-    load_dict['ic1'] = {"personId":row[0], "firstName":row[1]}
+    load_dict['ic1'] = {"personId":int(row[0]), "firstName":row[1]}
+    return load_dict
+  if query == "ic2":
+    date = datetime.datetime.utcfromtimestamp(int(row[1])/1000).isoformat()
+    load_dict['ic2'] = {"personId":int(row[0]), "date":date}
     return load_dict
   else:
     print("unsupported query")

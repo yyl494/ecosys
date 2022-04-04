@@ -1,0 +1,166 @@
+{
+    "bi1": {
+        "datetime": "2010-05-02T00:00:00"
+    },
+    "bi2": {
+        "date": "2011-01-14T00:00:00",
+        "tagClass": "SportsTeamMember"
+    },
+    "bi3": {
+        "tagClass": "Architect",
+        "country": "Argentina"
+    },
+    "bi4": {
+        "date": "2012-09-14T00:00:00"
+    },
+    "bi5": {
+        "tag": "Hamid_Karzai"
+    },
+    "bi6": {
+        "tag": "Augustine_of_Hippo"
+    },
+    "bi7": {
+        "tag": "Augustine_of_Hippo"
+    },
+    "bi8": {
+        "tag": "Adolf_Hitler",
+        "date": "2010-11-15T00:00:00"
+    },
+    "bi9": {
+        "startDate": "2010-10-03T00:00:00",
+        "endDate": "2010-10-08T00:00:00"
+    },
+    "bi10": {
+        "personId": 30786325579101,
+        "country": "India",
+        "tagClass": "Album",
+        "minPathDistance": 2,
+        "maxPathDistance": 3
+    },
+    "bi11": {
+        "country": "Argentina",
+        "startDate": "2011-07-30T00:00:00"
+    },
+    "bi12": {
+        "date": "2010-10-18T00:00:00",
+        "lengthThreshold": 16,
+        "languages": "en"
+    },
+    "bi13": {
+        "country": "Argentina",
+        "endDate": "2011-05-25T00:00:00"
+    },
+    "bi14": {
+        "country1": "Singapore",
+        "country2": "Morocco"
+    },
+    "bi15": {
+        "person1Id": 13194139536624,
+        "person2Id": 21990232555842,
+        "startDate": "2010-11-16T00:00:00",
+        "endDate": "2011-11-16T00:00:00"
+    },
+    "bi16": {
+        "tagA": "Imelda_Marcos",
+        "dateA": "2012-05-08T00:00:00",
+        "tagB": "Sanath_Jayasuriya",
+        "dateB": "2012-01-04T00:00:00",
+        "maxKnowsLimit": 5
+    },
+    "bi17": {
+        "tag": "Adolf_Hitler",
+        "delta": 14
+    },
+    "bi18": {
+        "person1Id": 13194139536624,
+        "tag": "How_Can_I_Unlove_You"
+    },
+    "bi19": {
+        "city1Id": 434,
+        "city2Id": 341
+    },
+    "bi20": {
+        "company": "",
+        "person2Id": 10995116284695
+    },
+    "ic1": {
+        "personId": 30786325579101,
+        "firstName": "Ian"
+    },
+    "ic2": {
+        "personId": 8796093023470,
+        "date": "2012-11-28T00:00:00"
+    },
+    "ic3": {
+        "personId": 30786325580700,
+        "country1": "Argentina",
+        "country2": "Russia",
+        "startDate": "2011-05-07T00:00:00",
+        "duration": 640
+    },
+    "ic4": {
+        "personId": 30786325580700,
+        "startDate": "2011-03-05T00:00:00",
+        "duration": 634
+    },
+    "ic5": {
+        "personId": 30786325580700,
+        "startDate": "2011-07-06T00:00:00"
+    },
+    "ic6": {
+        "personId": 30786325580700,
+        "tag": "Adolf_Hitler"
+    },
+    "ic7": {
+        "personId": 30786325580700
+    },
+    "ic8": {
+        "personId": 30786325580700
+    },
+    "ic9": {
+        "personId": 30786325580700,
+        "date": "2010-11-21T00:00:00"
+    },
+    "ic10": {
+        "personId": 30786325580700,
+        "month": 7
+    },
+    "ic11": {
+        "personId": 30786325580700,
+        "country": "Argentina",
+        "workFromYear": 1995
+    },
+    "ic12": {
+        "personId": 30786325580700,
+        "tagClass": "SportsTeamMember"
+    },
+    "ic13": {
+        "person1Id": 30786325580700,
+        "person2Id": 10995116284695
+    },
+    "ic14": {
+        "person1Id": 30786325580700,
+        "person2Id": 10995116284695
+    },
+    "is1": {
+        "personId": 30786325580700
+    },
+    "is2": {
+        "personId": 30786325580700
+    },
+    "is3": {
+        "personId": 30786325580700
+    },
+    "is4": {
+        "messageId": 549756299283
+    },
+    "is5": {
+        "messageId": 549756299283
+    },
+    "is6": {
+        "messageId": 1030792634678
+    },
+    "is7": {
+        "messageId": 481036821961
+    }
+}
