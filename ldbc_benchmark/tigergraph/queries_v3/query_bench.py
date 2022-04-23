@@ -61,7 +61,7 @@ if __name__ == '__main__':
         time = -1
         # print(para_file, "./driver.py run -q " + sys.argv[1] + " -p " + para_file)
         para = {}
-        with os.popen("python ./fake_driver.py run -q " + query + " -p " + para_file) as stdo:
+        with os.popen("./driver.py run -q " + query + " -p " + para_file) as stdo:
           result = stdo.read()
           print(result)
           time = result.splitlines()[3].split()[2]
