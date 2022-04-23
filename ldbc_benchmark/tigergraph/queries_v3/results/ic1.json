@@ -9,7 +9,6 @@
             {
                 "id": 10995116279328,
                 "lastName": "Smith",
-                "ceFromPerson": 2,
                 "birthday": 513388800000,
                 "creationDate": 1291220622000,
                 "gender": "male",
@@ -32,13 +31,13 @@
                 ],
                 "companies": [
                     {
-                        "name": "Airtours_International_Airways",
-                        "workFrom": 2006,
+                        "name": "British_Mediterranean_Airways",
+                        "workFrom": 2007,
                         "countryName": "United_Kingdom"
                     },
                     {
-                        "name": "British_Mediterranean_Airways",
-                        "workFrom": 2007,
+                        "name": "Airtours_International_Airways",
+                        "workFrom": 2006,
                         "countryName": "United_Kingdom"
                     },
                     {
@@ -46,7 +45,8 @@
                         "workFrom": 2007,
                         "countryName": "United_Kingdom"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.25"
@@ -61,7 +61,6 @@
             {
                 "id": 8796093022435,
                 "lastName": "Chen",
-                "ceFromPerson": 2,
                 "birthday": 355449600000,
                 "creationDate": 1286248446000,
                 "gender": "female",
@@ -82,7 +81,8 @@
                         "workFrom": 2011,
                         "countryName": "China"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.26"
@@ -97,7 +97,6 @@
             {
                 "id": 24189255812657,
                 "lastName": "Yang",
-                "ceFromPerson": 1,
                 "birthday": 427075200000,
                 "creationDate": 1324523295000,
                 "gender": "female",
@@ -146,7 +145,8 @@
                         "workFrom": 2005,
                         "countryName": "China"
                     }
-                ]
+                ],
+                "distance": 1
             }
         ],
         "time_elapsed": "3.26"
@@ -161,7 +161,6 @@
             {
                 "id": 8796093022435,
                 "lastName": "Chen",
-                "ceFromPerson": 2,
                 "birthday": 355449600000,
                 "creationDate": 1286248446000,
                 "gender": "female",
@@ -182,7 +181,8 @@
                         "workFrom": 2011,
                         "countryName": "China"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.26"
@@ -197,7 +197,6 @@
             {
                 "id": 13194139533432,
                 "lastName": "Jong",
-                "ceFromPerson": 1,
                 "birthday": 511315200000,
                 "creationDate": 1296741574000,
                 "gender": "female",
@@ -219,10 +218,11 @@
                         "cityName": "Utrecht"
                     }
                 ],
-                "companies": []
+                "companies": [],
+                "distance": 1
             }
         ],
-        "time_elapsed": "3.25"
+        "time_elapsed": "3.26"
     },
     {
         "input": {
@@ -261,7 +261,6 @@
             {
                 "id": 10995116278291,
                 "lastName": "Muller",
-                "ceFromPerson": 1,
                 "birthday": 499824000000,
                 "creationDate": 1289131355000,
                 "gender": "female",
@@ -290,7 +289,8 @@
                         "workFrom": 2005,
                         "countryName": "Germany"
                     }
-                ]
+                ],
+                "distance": 1
             }
         ],
         "time_elapsed": "3.26"
@@ -305,7 +305,6 @@
             {
                 "id": 26388279067560,
                 "lastName": "Ravalomanana",
-                "ceFromPerson": 2,
                 "birthday": 337219200000,
                 "creationDate": 1328287013000,
                 "gender": "female",
@@ -340,7 +339,8 @@
                         "workFrom": 2000,
                         "countryName": "Madagascar"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.25"
@@ -355,7 +355,6 @@
             {
                 "id": 6597069767571,
                 "lastName": "Ahmad",
-                "ceFromPerson": 2,
                 "birthday": 387072000000,
                 "creationDate": 1282097584000,
                 "gender": "female",
@@ -376,7 +375,8 @@
                         "cityName": "Rawalpindi"
                     }
                 ],
-                "companies": []
+                "companies": [],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.26"
@@ -391,7 +391,6 @@
             {
                 "id": 17592186045238,
                 "lastName": "David",
-                "ceFromPerson": 2,
                 "birthday": 521164800000,
                 "creationDate": 1304755261000,
                 "gender": "male",
@@ -434,10 +433,11 @@
                         "workFrom": 2007,
                         "countryName": "Romania"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
-        "time_elapsed": "3.26"
+        "time_elapsed": "3.25"
     },
     {
         "input": {
@@ -449,7 +449,6 @@
             {
                 "id": 15393162789346,
                 "lastName": "Jones",
-                "ceFromPerson": 2,
                 "birthday": 468028800000,
                 "creationDate": 1299757249000,
                 "gender": "female",
@@ -483,10 +482,11 @@
                         "workFrom": 2006,
                         "countryName": "United_States"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
-        "time_elapsed": "3.25"
+        "time_elapsed": "3.26"
     },
     {
         "input": {
@@ -498,7 +498,6 @@
             {
                 "id": 15393162789346,
                 "lastName": "Jones",
-                "ceFromPerson": 2,
                 "birthday": 468028800000,
                 "creationDate": 1299757249000,
                 "gender": "female",
@@ -532,7 +531,8 @@
                         "workFrom": 2006,
                         "countryName": "United_States"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.25"
@@ -547,7 +547,6 @@
             {
                 "id": 6597069766733,
                 "lastName": "Fischer",
-                "ceFromPerson": 2,
                 "birthday": 518832000000,
                 "creationDate": 1280680644000,
                 "gender": "female",
@@ -577,7 +576,8 @@
                         "workFrom": 2006,
                         "countryName": "Germany"
                     }
-                ]
+                ],
+                "distance": 2
             }
         ],
         "time_elapsed": "3.25"

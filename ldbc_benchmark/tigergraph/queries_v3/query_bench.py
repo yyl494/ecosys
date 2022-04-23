@@ -33,7 +33,7 @@ def convert_ic1(dict):
     new_key = key[7:]
     new_key = key[6].lower() + new_key
     dict[new_key] = dict.pop(key)
-    dict["distance"] = dict.pop("ceFromPerson")
+  dict["distance"] = dict.pop("ceFromPerson")
   for c in dict["companies"]:
     c["name"] = c.pop("orgName")
     c["workFrom"] = c.pop("orgYear")
