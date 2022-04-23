@@ -1,0 +1,5 @@
+print("Workload: ic1")
+print("run for 1 times ...")
+print("Q	Nrow	Median time")
+print("ic1	1	3.25")
+print("Results are written to results")
